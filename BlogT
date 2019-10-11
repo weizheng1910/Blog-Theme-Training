@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://i.imgur.com/x4kXZys.jpg');
+      background-size: cover;
+      color: white;
+      font-family: 'PT Serif', serif;
+      border: 2px solid white;
+      margin: -16px auto;
+    }
+    
+    
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      margin: 0 30px -16px 30px;
+    }
+    img {
+      margin: 0px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 40px;
+      height: 100px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+      float: left;
+      height: 1000px;
+      border: 2px solid white;
+      margin: 0px, 30px, 0px, 30px;
+      
+      
+    }
+    li {
+      display: block;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      height: 200px;
+      padding: 0px;
+      margin: 0 auto;
+     
+     
+      
+    }
+    
+    body{
+      background: rgba(16,115,177,1);
+      color: white;
+      
+    }
+    
+  
+
+    
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+      
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/aDe6YL3.jpg">
+    <h1>Wei Zheng's Blog</h1>
+  </header>
+   <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Archive</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  <article>
+    <h2>05 October 2019</h2>
+    <p>So happy that I got into the second round of interviews for the GE Software Engineering Immersive! Excited to tackle the assignments given to me. I look forward to the interview on the 10th!</p>
+    <button>Like</button>
+  </article>
+  <br>
+  <br>
+  <br>
+  <article>
+    <h2>03 October 2019</h2>
+    <p>Today is my last day at Leonteq Securities! It has been a very fruitful journey. I have learnt a great deal about structured products and have also gotten to know many talented people. Sadly, the time has come for me to move on.</p>
+    <button>Like</button>
+  </article>
+  <br>
+  <br>
+  <br>
+  <article>
+    <h2>09 September 2019</h2>
+    <p>"We cannot become what we want to be by staying where we are!".  </p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
